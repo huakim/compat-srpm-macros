@@ -1,5 +1,5 @@
 Name:		compat-srpm-macros
-Version:	2022.10
+Version:	2023.11
 Release:	1
 Summary:	RPM macros for compatible building
 Group:		Applications/Engineering
@@ -8,8 +8,8 @@ Source0:	macros.compat-srpm
 BuildArch:	noarch
 
 %description
-macros.compat-srpm provides macros for building compatible projects from
-various distributions.
+macros.compat-srpm provides macros for building projects from
+various distributions compatibly.
 
 %prep
 %setup -T
@@ -28,5 +28,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_rpmconfigdir}/macros.d/macros.compat-srpm
 
 %changelog
-* Sun Oct 30 2022 Wei-Lun Chao <bluebat@member.fsf.org> - 2022.10
-- Rebuilt for Fedora
+* Sun Nov 05 2022 Wei-Lun Chao <bluebat@member.fsf.org> - 2023.11
+- Initial package

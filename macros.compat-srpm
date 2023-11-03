@@ -12,6 +12,7 @@
 %_missing_build_ids_terminate_build 0
 %_binaries_in_noarch_packages_terminate_build 0
 %_hardened_build %{nil}
+%_auto_set_build_flags %{nil}
 
 # Directory
 %tmpdir %{_tmppath}
