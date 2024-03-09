@@ -21,8 +21,8 @@
 %py_platsitedir %python_sitearch
 %_appdefdif %{_datadir}/X11/app-defaults
 %_pixmapsdir %{_datadir}/pixmaps
+%_iconsdir %{_datadir}/icons
 %_kde4_iconsdir %{_iconsdir}
-%_iconsdir %{_iconsdir}
 %_miconsdir %{_iconsdir}/hicolor/16x16/apps
 %_liconsdir %{_iconsdir}/hicolor/64x64/apps
 %_man1dir %{_mandir}/man1
