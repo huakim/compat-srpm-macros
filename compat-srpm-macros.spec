@@ -12,7 +12,6 @@ macros.compat-srpm provides macros for building projects from
 various distributions compatibly.
 
 %prep
-%setup -T
 
 %build
 
