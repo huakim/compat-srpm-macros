@@ -19,14 +19,14 @@ various distributions compatibly.
 %install
 cp %{SOURCE1} LICENSE
 rm -rf $RPM_BUILD_ROOT
-install -Dm644 %{SOURCE0} %{buildroot}%{_rpmconfigdir}/macros.d/macros.compat_srpm
+install -Dm644 %{SOURCE0} %{buildroot}%{_rpmconfigdir}/macros.d/macros.compat-srpm
    
 %clean 
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %doc LICENSE
-%{_rpmconfigdir}/macros.d/macros.compat_srpm
+%{_rpmconfigdir}/macros.d/macros.compat-srpm
 
 %changelog
 * Sun Nov 05 2022 Wei-Lun Chao <bluebat@member.fsf.org> - 2023.11
