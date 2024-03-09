@@ -1,6 +1,6 @@
 Name:		compat-srpm-macros
 Version:	2023.11
-Release:	2
+Release:	3
 Summary:	RPM macros for compatible building
 Group:		Applications/Engineering
 License:	MIT License
