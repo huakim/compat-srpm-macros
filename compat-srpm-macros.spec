@@ -4,7 +4,7 @@ Release:	1
 Summary:	RPM macros for compatible building
 Group:		Applications/Engineering
 License:	MIT License
-Source0:	macros.compat-srpm
+Source0:	macros.compat_srpm
 BuildArch:	noarch
 
 %description
@@ -18,7 +18,7 @@ various distributions compatibly.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -Dm644 %{SOURCE0} %{buildroot}%{_rpmconfigdir}/macros.d/macros.compat-srpm
+install -Dm644 %{SOURCE0} %{buildroot}%{_rpmconfigdir}/macros.d/macros.compat_srpm
    
 %clean 
 rm -rf $RPM_BUILD_ROOT
