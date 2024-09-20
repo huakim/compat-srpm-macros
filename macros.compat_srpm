@@ -60,7 +60,7 @@
 %__global_ldflags -Wl,-z,relro -lm -ldl -Wl,--allow-multiple-definition
 %_warning_options -fpermissive -Wno-error -Wl,--allow-multiple-definition
 %mkrel %{nil}
-%mklibname %{nil}
+%mklibname(ds)  lib%{1}%{?2:%{2}}%{?3:_%{3}}%{-s:-static}%{-d:-devel}
 %ext_man .gz
 %rpmcflags %{optflags}
 %rpmldflags -s
